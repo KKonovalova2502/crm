@@ -6,7 +6,6 @@ export interface LayoutProps {
 }
 
 export default function RootLayout({ children }: LayoutProps) {
-  console.log('rendering Layout');
   return (
     <>
       <Sidebar />
