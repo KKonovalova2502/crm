@@ -3,7 +3,10 @@
 import React from 'react';
 import Link from 'next/link';
 
-export interface NotFoundProps {}
+export interface NotFoundProps {
+   // TODO: add props later
+  [key: string]: unknown;
+}
 
 export default function NotFound({}: NotFoundProps) {
   return (
